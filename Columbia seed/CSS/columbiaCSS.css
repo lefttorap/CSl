@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Kolker+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+
+
+#masthead{
+	background-image: url("../Images/DJI_0113 copy.jpg");
+	background-size:cover;
+	background-position:top;
+	padding: 25vh;
+	color: #0B0000;
+}
+
+
+h1, h3, h5{
+	font-family: 'Nunito Sans', sans-serif;
+;
+}
+
+p{
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.display-1{
+	font-size: 30pt;
+}
+
+
+
+@media only screen and (min-width: 530px) {
+	#masthead{
+		background-image: url("../Images/DJI_0113 copy.jpg");
+		background-size:cover;
+		background-position:top;
+		padding: 25vh;
+		color: #0B0000;
+	}
+	}
+
+h3{
+	font-size: 40px;
+}
+
+
+
+@media only screen and (min-width: 768px) 
+
+{#masthead{
+	background-image: url("../Images/DJI_0113 copy.jpg");
+	background-size:cover;
+	background-position:top;
+	padding: 25vh;
+	color: #0B0000;
+}
+}
+
+
+
+
+
+.ClsGreen{
+	background-color: #9eb140;
+}
+footer{
+	background-color: #9eb140;
+}
+
+a:link {
+	color:#FFFFFF;
+}
+
+/* if the link has been clicked on*/
+a:visited{
+	color:#E4E4E4;
+}
+
+/*when i have my mouse over the link*/
+
+
+a:hover{
+	color:#7C7C7C;
+	/* get rid of underline*/
+	text-decoration: none;
+}
+
+a:active{
+	color: #959595;
+}
+
+#contact a:link {
+	color:#000000;
+}
+
+
+#contact a:visited{
+	color:#025f00;
+}
+
+/*when i have my mouse over the link*/
+
+
+#contact a:hover{
+	color:#6fb82c;
+	/* get rid of underline*/
+	text-decoration: none;
+}
+
+#contact a:active{
+	color: #2d9208;
+}
